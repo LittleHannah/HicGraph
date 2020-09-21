@@ -121,7 +121,7 @@ python hicGraph.py --mcool test.mcool --tad Tad.bed --compartment Compartment.be
 Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compartment.bed ./ chr22
 ```
 
-![image](https://github.com/LittleHan/HicGraph/test/result/R-plot1.png)
+![image](https://github.com/LittleHannah/HicGraph/tree/master/result/R-plot1.png)
 
 - 选择序号为38的Compartment，绘制该Compartment内所有Tad的交互网络图
 
@@ -129,7 +129,7 @@ Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compa
 Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compartment.bed ./ chr22 com_38
 ```
 
-![image](https://github.com/LittleHan/HicGraph/test/result/R-plot2.png)
+![image](https://github.com/LittleHannah/HicGraph/tree/master/result/R-plot2.png)
 
 - 选择序号为91的Tad，绘制该Tad内所有Fragment的交互网络图
 
@@ -137,5 +137,5 @@ Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compa
 Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compartment.bed ./ chr22 com_38 tad_91
 ```
 
-![image](https://github.com/LittleHan/HicGraph/test/result/R-plot3.png)
+![image](https://github.com/LittleHannah/HicGraph/tree/master/result/R-plot3.png)
 
