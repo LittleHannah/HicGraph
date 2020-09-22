@@ -129,7 +129,7 @@ Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compa
 Rscript hicGraph.R ./ ./data/Rao_chr22.mcool ./data/Rao_tad.bed ./data/Rao_compartment.bed ./ chr22 com_38
 ```
 
-![image](https://github.com/LittleHannah/HicGraph/tree/master/result/R-plot2.jpg)
+![image](https://github.com/LittleHannah/HicGraph/tree/master/result/Rplot2.jpg)
 
 - 选择序号为91的Tad，绘制该Tad内所有Fragment的交互网络图
 
